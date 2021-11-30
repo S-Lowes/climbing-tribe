@@ -24,15 +24,13 @@ body {
     left: 0;
 }
 
-
-#home-nav-container {
+#home-app-navigation {
     display: table;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
     position: relative;
+    text-align: center;
 }
 
-#home-nav-container a {
+#home-app-navigation a img {
     width: 22%;
+    float: left;
 }
