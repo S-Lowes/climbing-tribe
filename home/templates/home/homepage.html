@@ -1,6 +1,10 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'home/css/home.css' %}">
+{% endblock %}
+
 {% block content %}
 <div id="background-image-container">
     <img src="{{ MEDIA_URL }}jude_infantini_2_unsplash.jpg" alt="Rock face texture image">
@@ -8,8 +12,10 @@
 
 
 <!-- Brand Title -->
-<div>
-
+<div  id="home-app-title">
+    <h1>
+        Billy
+    </h1>
 </div>
 
 <!-- App Navigation -->

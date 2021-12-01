@@ -6,31 +6,3 @@ html {
 body {
     margin: 0px; padding: 0px
 }
-
-#background-image-container {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-}
-
-#background-image-container img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%) brightness(30%);
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-#home-app-navigation {
-    display: table;
-    position: relative;
-    text-align: center;
-}
-
-#home-app-navigation a img {
-    width: 22%;
-    float: left;
-}

@@ -1,0 +1,51 @@
+/* ====== HOME APP CSS ====== */
+#background-image-container {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#background-image-container img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%) brightness(30%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This Fixed The Issue */
+}
+
+#home-app-navigation {
+    display: table;
+    position: relative;
+    text-align: center;
+}
+
+
+#home-app-navigation a {
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto 28px;
+    position: relative;
+    width: 25%;
+}
+
+#home-app-navigation a img {
+    width: 25%;
+}
+
+/* ====== Adobe Banshee font ====== */
+#home-app-title {
+    text-align: center;
+    position: relative;
+    font-family: banshee-std, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f8f7f1;
+}
