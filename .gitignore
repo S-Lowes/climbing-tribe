@@ -8,5 +8,6 @@ __pycache__/
 *.pyc
 *.py[cod]
 node_modules/
+.DS_Store
 .github/
 cloudinary_python.txt
