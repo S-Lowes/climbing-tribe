@@ -49,6 +49,10 @@
     margin: auto;
     width: 200px;
     height: 200px;
-    border: 5px solid red;
+    border: 5px solid #262413;
     border-radius: 100%;
+}
+
+#home-app-navigation a:hover {
+    border: 5px solid #f8f7f1;
 }

@@ -25,4 +25,5 @@ urlpatterns = [
         url=staticfiles_storage.url('favicon/favicon.ico'))),
     path('admin/', admin.site.urls),
     path('', include('home.urls')),
+    path('shop/', include('shop.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
