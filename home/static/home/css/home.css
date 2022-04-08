@@ -11,6 +11,14 @@
     font-size: 7.5rem;
 }
 
+#login-logout-signup li a {
+    text-align: left;
+    text-decoration: none;
+    position: relative;
+    color: #f8f7f1;
+    font-size: 1.5rem;
+}
+
 /* ====== Background ====== */
 #background-image-container {
     overflow: hidden;
@@ -40,7 +48,6 @@
     position: relative;
     text-align: center;
 }
-
 
 #home-app-navigation a {
     background-repeat: no-repeat;
